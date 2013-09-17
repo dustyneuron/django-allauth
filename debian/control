@@ -1,0 +1,18 @@
+Source: python3-django-allauth
+Section: contrib/python
+Priority: extra
+Maintainer: Tom Scholl <tom@dustyneuron.com>
+Build-Depends: debhelper (>= 8.0.0), python3-all, python3-setuptools
+Standards-Version: 3.9.4
+Homepage: https://github.com/pennersr/django-allauth
+Vcs-Git: git://github.com/pennersr/django-allauth.git
+Vcs-Browser: https://github.com/pennersr/django-allauth
+X-Python3-Version: >= 3.3
+
+Package: python3-django-allauth
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}, python3-django, python3-requests (>= 1.0.3), python3-requests-oauthlib (>= 0.3.0), python3-openid (>= 3.0.1)
+Description: 3rd party (social) authentication for Django
+ Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.
+ .
+ This is the Python 3 version of the package.

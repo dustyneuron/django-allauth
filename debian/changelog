@@ -1,0 +1,5 @@
+python3-django-allauth (0.13.0-1) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Tom Scholl <tom@dustyneuron.com>  Tue, 17 Sep 2013 13:59:44 +0100

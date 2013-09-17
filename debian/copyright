@@ -1,0 +1,9 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: *
+Copyright: 2010-2013 Raymond Penners and contributors
+License: Expat
+
+Files: debian/*
+Copyright: 2013 Tom Scholl
+License: Expat
